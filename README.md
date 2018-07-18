@@ -1,14 +1,18 @@
 ﻿# Moodle JS
 
 A script for automating some Moodle tasks at Otago Polytechnic (New Zealand).
+
 Works in Chrome and Firefox.
+
 Only tried on Windows.
 
 
 ## Installing
 
 For Chrome: Goto https://chrome.google.com/webstore/detail/moodlejs/ceabcncppbgolikembclgecoeabpciki
+
 For Firefox: Open install file moodlejs-x.x-an+fx.xpi
+
 It should add an icon "MJS" to the toolbar.
 
 
@@ -47,22 +51,24 @@ You can start the script by clicking on the icon, after you've logged in to OP M
 
 1. Open the course that you want the module index page rebuilt in.
 2. Click "Rebuild...".
+
 `Note: If the module index page differs from the template, the script may be confused, and either wipe custom content on the page, or crash.`
 
 
 ## Known issues
 
-Creating module, image linked to Blended course template.
-Best to turn editing on before use (sometimes doesn't get turned on by the script).
-If viewing as student, etc. return to normal role (or role with at least teacher privilages) before use.
-Take care not to type while the script is active and the content page is in focus.  (Input to page isn't blocked.)
-May be best not to have multiple tabs / windows open on the same Moodle site?  (Seems to be a problem generally.)
-In Firefox, sometimes displays error message "Invalid JSON string", but doesn't seem to cause any problems.
+* Creating module, image linked to Blended course template.
+* Best to turn editing on before use (sometimes doesn't get turned on by the script).
+* If viewing as student, etc. return to normal role (or role with at least teacher privilages) before use.
+* Take care not to type while the script is active and the content page is in focus.  (Input to page isn't blocked.)
+* May be best not to have multiple tabs / windows open on the same Moodle site?  (Seems to be a problem generally.)
+* In Firefox, sometimes displays error message "Invalid JSON string", but doesn't seem to cause any problems.
 
 
 ## Development Notes
 
 HTML content should only be updated based on a copy that was got immediately proir.
+
 Otherwise image links will likely be broken.
 
 
